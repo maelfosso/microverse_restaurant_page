@@ -78,3 +78,21 @@ p {
     }
 
 }
+
+#content {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+
+  #content {
+
+      width: 75%;
+
+  }
+
+}
